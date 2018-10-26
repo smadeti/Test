@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Dorman Application Test Automation Test Suite" duration-ms="12272" started-at="2018-10-25T12:17:37Z" finished-at="2018-10-25T12:17:49Z">
+  <suite name="Dorman Application Test Automation Test Suite" duration-ms="17037" started-at="2018-10-26T08:00:46Z" finished-at="2018-10-26T08:01:03Z">
     <groups>
     </groups>
-    <test name="Dorman Products search  Test Cases" duration-ms="12272" started-at="2018-10-25T12:17:37Z" finished-at="2018-10-25T12:17:49Z">
+    <test name="Dorman Products search  Test Cases" duration-ms="17037" started-at="2018-10-26T08:00:46Z" finished-at="2018-10-26T08:01:03Z">
       <class name="test.java.com.dorman.qa.testcases.DormanSearchPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.com.dorman.qa.testcases.DormanSearchPageTest@589838eb]" name="setUp" is-config="true" duration-ms="10724" started-at="2018-10-25T17:47:37Z" finished-at="2018-10-25T17:47:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.com.dorman.qa.testcases.DormanSearchPageTest@589838eb]" name="setUp" is-config="true" duration-ms="13508" started-at="2018-10-26T13:30:46Z" finished-at="2018-10-26T13:30:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searhc()[pri:1, instance:test.java.com.dorman.qa.testcases.DormanSearchPageTest@589838eb]" name="searhc" duration-ms="11" started-at="2018-10-25T17:47:48Z" finished-at="2018-10-25T17:47:48Z">
+        <test-method status="PASS" signature="searhc()[pri:1, instance:test.java.com.dorman.qa.testcases.DormanSearchPageTest@589838eb]" name="searhc" duration-ms="7" started-at="2018-10-26T13:30:59Z" finished-at="2018-10-26T13:30:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searhc -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:test.java.com.dorman.qa.testcases.DormanSearchPageTest@589838eb]" name="screenShot" is-config="true" duration-ms="508" started-at="2018-10-25T17:47:48Z" finished-at="2018-10-25T17:47:48Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:test.java.com.dorman.qa.testcases.DormanSearchPageTest@589838eb]" name="screenShot" is-config="true" duration-ms="533" started-at="2018-10-26T13:30:59Z" finished-at="2018-10-26T13:31:00Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="verifySearchYMMPTResult()[pri:2, instance:test.java.com.dorman.qa.testcases.DormanSearchPageTest@589838eb]" name="verifySearchYMMPTResult" duration-ms="312" started-at="2018-10-25T17:47:48Z" description="First Time Logging to Adrenalin" finished-at="2018-10-25T17:47:49Z">
+        <test-method status="PASS" signature="verifySearchYMMPTResult()[pri:2, instance:test.java.com.dorman.qa.testcases.DormanSearchPageTest@589838eb]" name="verifySearchYMMPTResult" duration-ms="532" started-at="2018-10-26T13:31:00Z" description="First Time Logging to Adrenalin" finished-at="2018-10-26T13:31:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchYMMPTResult -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:test.java.com.dorman.qa.testcases.DormanSearchPageTest@589838eb]" name="screenShot" is-config="true" duration-ms="356" started-at="2018-10-25T17:47:49Z" finished-at="2018-10-25T17:47:49Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:test.java.com.dorman.qa.testcases.DormanSearchPageTest@589838eb]" name="screenShot" is-config="true" duration-ms="365" started-at="2018-10-26T13:31:00Z" finished-at="2018-10-26T13:31:01Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.com.dorman.qa.testcases.DormanSearchPageTest@589838eb]" name="tearDown" is-config="true" duration-ms="313" started-at="2018-10-25T17:47:49Z" finished-at="2018-10-25T17:47:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.com.dorman.qa.testcases.DormanSearchPageTest@589838eb]" name="tearDown" is-config="true" duration-ms="2028" started-at="2018-10-26T13:31:01Z" finished-at="2018-10-26T13:31:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
