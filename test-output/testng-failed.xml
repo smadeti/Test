@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Dorman Application Test Automation Test Suite]">
+  <test name="Dorman Products search  Test Cases(failed)">
+    <classes>
+      <class name="test.java.com.dorman.qa.testcases.DormanSearchPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searhc"/>
+          <include name="setUp"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- test.java.com.dorman.qa.testcases.DormanSearchPageTest -->
+    </classes>
+  </test> <!-- Dorman Products search  Test Cases(failed) -->
+</suite> <!-- Failed suite [Dorman Application Test Automation Test Suite] -->
