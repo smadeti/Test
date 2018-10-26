@@ -16,6 +16,7 @@
  <maven.compiler.target>1.8</maven.compiler.target>
 	
 </properties>
+
 <build>
 
 		<testSourceDirectory>src</testSourceDirectory>
@@ -43,15 +44,17 @@
           </suiteXmlFiles>
         </configuration>
       </plugin>
-		<plugin>
+	
+       
+        <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.5.1</version>
+            <version>2.4</version>
             <configuration>
                 <source>1.8</source>
                 <target>1.8</target>
-            </configuration>
-        </plugin>
+</configuration>
+</plugin>
 		</plugins>
 
 	</build>
