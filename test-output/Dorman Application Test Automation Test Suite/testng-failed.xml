@@ -9,6 +9,7 @@
           <include name="searhc"/>
           <include name="setUp"/>
           <include name="screenShot"/>
+          <include name="verifySearchYMMPTResult"/>
         </methods>
       </class> <!-- test.java.com.dorman.qa.testcases.DormanSearchPageTest -->
     </classes>

@@ -6,17 +6,8 @@
 package test.java.com.dorman.qa.testcases;
 
 import java.io.IOException;
-import java.net.URL;
-import java.util.Arrays;
-import java.util.List;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -27,11 +18,8 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 import main.java.com.dorman.qa.pages.DormanSearch;
-import main.java.com.dorman.qa.pages.ElementsLocatorFile;
 import main.java.com.dorman.qa.pages.LoginPage;
 import main.java.com.dorman.qa.util.TestUtil;
-
-import main.java.com.dorman.qa.util.*;
 
 public class DormanSearchPageTest extends main.java.com.dorman.qa.base.TestBase{
 	
@@ -85,7 +73,7 @@ public class DormanSearchPageTest extends main.java.com.dorman.qa.base.TestBase{
 		 		 
 	}
 	
-	
+		
 	
 	@Test(priority=2,enabled=true, description="First Time Logging to Adrenalin")
 	public void verifySearchYMMPTResult() throws InterruptedException, IOException{

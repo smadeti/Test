@@ -7,13 +7,12 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -67,11 +66,27 @@ public static ExtentReports _extent_report;
 		
 		if(browserName.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver", "D:\\SHYAM_DOC\\HRM_AutomationFinalVersion4.0\\JarFiles\\BrowserServers\\chromedriver.exe");	
+			/*ChromeOptions options = new ChromeOptions();
+			options.addArguments("test-type");
+			options.addArguments("start-maximized");
+			options.addArguments("--enable-automation");
+			options.addArguments("test-type=browser");
+			options.addArguments("disable-infobars");
+			driver = new ChromeDriver(options);*/
 			driver = new ChromeDriver(); 
+			
 		}
 		else if(browserName.equals("FF")){
 			System.setProperty("webdriver.gecko.driver", "D:\\\\SHYAM_DOC\\\\HRM_AutomationFinalVersion4.0\\\\JarFiles\\\\BrowserServers\\geckodriver.exe");	
-			driver = new FirefoxDriver(); 
+			FirefoxOptions options = new FirefoxOptions();
+			options.addPreference("--log", "trace");
+			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+			capabilities.setCapability("moz:firefoxOptions", options);
+			 driver =  new FirefoxDriver(capabilities);			
+			 DesiredCapabilities dc = new DesiredCapabilities();
+				dc.setCapability("log", "trace");
+				 driver =  new FirefoxDriver(dc);	
+			//driver = new FirefoxDriver(); 
 		}
 		
 		
